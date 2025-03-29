@@ -2,7 +2,7 @@ package view
 
 import "errors"
 
-func (c *viewImpls) addTwo(x, y int) (int, error) {
+func (c *viewImpls) AddTwo(x, y int) (int, error) {
 
 	if x == 0 {
 		c.loggerX.Warn("x is zero, so logging")

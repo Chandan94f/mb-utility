@@ -3,7 +3,7 @@ package view
 import "github.com/Chandan94f/mb-utility/utility/logger"
 
 type View interface {
-	addTwo(x, y int) (int, error)
+	AddTwo(x, y int) (int, error)
 }
 
 type viewImpls struct {
