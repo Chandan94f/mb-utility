@@ -1,6 +1,6 @@
 package view
 
-import "github.com/mb-utility/utility/logger"
+import "github.com/Chandan94f/mb-utility/utility/logger"
 
 type View interface {
 	addTwo(x, y int) (int, error)
