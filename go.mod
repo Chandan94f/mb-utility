@@ -1,4 +1,4 @@
-module github.com/mb-utility
+module github.com/Chandan94f/mb-utility
 
 go 1.21.5
 
